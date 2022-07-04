@@ -7,12 +7,14 @@
 
 /* make image responsive*/
 #responsive {
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
+ 
+    
 }    
 
 /*add poloroid border to head image with shadow, background colour and top padding*/
@@ -68,4 +70,33 @@ div.container {
 body {
     background-color:lightgray  ;
     color:black;
+}
+
+/* add structure to body */
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+/*structure and style body content*/
+h2 {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+}
+
+section {
+  color: black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: block;
+}
+
+.couple {
+  width: 200px;
+  height: 300px;
+  align-items: flex-end;
+  display:block;
+
 }
