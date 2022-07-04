@@ -6,8 +6,8 @@
 
 
 /* make image responsive*/
-#responsive {
-    max-width: 300px;
+.responsive {
+    max-width: 250px;
     height: auto;
     display: block;
     margin-left: auto;
@@ -58,7 +58,7 @@ div.container {
 }
 
 #menu a {
-  text-decoration: none;
+  
   color:rgb(48, 47, 47);
 }
 
@@ -78,25 +78,22 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 5%;
+  padding-top: 2%;
+  
 }
 /*structure and style body content*/
 h2 {
-  text-align: center;
+  display: block;
   text-decoration: none;
   color: black;
 
+
 }
 
-section {
+ section {
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;
   display: block;
-}
+  
+ }
 
-.couple {
-  width: 200px;
-  height: 300px;
-  align-items: flex-end;
-  display:block;
-
-}
